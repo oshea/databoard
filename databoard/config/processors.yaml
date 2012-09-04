@@ -1,0 +1,60 @@
+- length:
+    name: Length
+    output: scalar
+    input: number_list
+    
+- unique_count:
+    name: Uniques
+    description: Number of unique values in the list
+    output: scalar
+    input: number_list
+    
+- min:
+    name: Minimum
+    output: scalar
+    input: number_list
+
+- max:
+    name: Maximum
+    output: scalar
+    input: number_list
+
+- mean:
+    name: Mean
+    output: scalar
+    input: number_list
+       
+- median:
+    name: Median
+    output: scalar
+    input: number_list
+   
+- mode:
+    name: Mode
+    output: scalar
+    input: number_list
+    
+- standard_deviation:
+    name: Standard Deviation
+    output: scalar
+    input: number_list
+    
+- distribution:
+    name: Distribution
+    output: histogram
+    input: number_list
+    
+- pmf:
+    name: Probability Mass Function
+    output: linegraph
+    input: number_list
+    
+- cdf:
+    name: Cumulative Distribution Function
+    output: linegraph
+    input: number_list
+    
+
+    
+            
+    
